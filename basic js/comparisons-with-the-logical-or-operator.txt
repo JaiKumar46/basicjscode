@@ -1,0 +1,25 @@
+function testLogicalOr(val) {
+  // Only change code below this line
+
+  if (val<10||val>20) {
+    return "Outside";
+  }
+    return "Inside";
+  }
+
+   
+    
+
+  // Only change code above this line
+  
+testLogicalOr(15);
+testLogicalOr(0);
+testLogicalOr(9);
+
+
+testLogicalOr(15);
+testLogicalOr(19);
+testLogicalOr(20);
+
+testLogicalOr(21);
+testLogicalOr(25);

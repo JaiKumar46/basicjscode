@@ -1,0 +1,12 @@
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+
+// Only change code below this line
+let temp;
+myArray.push(["Paul", 35])
+
+temp=myArray[0]
+myArray[0]=myArray[1]
+myArray[1]=temp
+console.log(myArray)
